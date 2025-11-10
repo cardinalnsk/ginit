@@ -26,7 +26,7 @@
 ### Установка из исходного кода
 
 ```bash
-git clone https://github.com/your-username/ginit.git
+git clone https://github.com/cardinalnsk/ginit.git
 cd ginit
 go build -o ginit ./cmd/ginit
 sudo mv ginit /usr/local/bin/
@@ -35,7 +35,7 @@ sudo mv ginit /usr/local/bin/
 ### Установка через go install
 
 ```bash
-go install github.com/your-username/ginit/cmd/ginit@latest
+go install github.com/cardinalnsk/ginit/cmd/ginit@latest
 ```
 
 ## 🎯 Использование
@@ -185,8 +185,6 @@ my-lib/
 # Сборка ginit
 go build -o ginit ./cmd/ginit
 
-# Тестирование
-go test ./...
 ```
 
 ### Структура кода ginit
@@ -215,8 +213,6 @@ ginit/
 **Проблема**: Проект создается не полностью
 **Решение**: Убедитесь, что вы не нажимаете Enter несколько раз во время создания проекта
 
-**Проблема**: Ошибка "path not in whitelist"
-**Решение**: Используйте абсолютные пути или пути в домашней директории
 
 ### Проблемы с зависимостями
 
@@ -239,8 +235,7 @@ ginit/
 
 ## 📞 Контакты
 
-- GitHub: [your-username](https://github.com/your-username)
-- Email: your-email@example.com
+- GitHub: [cardinalnsk](https://github.com/cardinalnsk)
 
 ---
 

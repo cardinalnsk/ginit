@@ -26,7 +26,7 @@
 ### Install from source
 
 ```bash
-git clone https://github.com/your-username/ginit.git
+git clone https://github.com/cardinalnsk/ginit.git
 cd ginit
 go build -o ginit ./cmd/ginit
 sudo mv ginit /usr/local/bin/
@@ -35,7 +35,7 @@ sudo mv ginit /usr/local/bin/
 ### Install via go install
 
 ```bash
-go install github.com/your-username/ginit/cmd/ginit@latest
+go install github.com/cardinalnsk/ginit/cmd/ginit@latest
 ```
 
 ## 🎯 Usage
@@ -215,8 +215,6 @@ ginit/
 **Problem**: Project is not created completely
 **Solution**: Make sure you don't press Enter multiple times during project creation
 
-**Problem**: "path not in whitelist" error
-**Solution**: Use absolute paths or paths in home directory
 
 ### Dependency issues
 
@@ -239,8 +237,7 @@ Distributed under the MIT License. See `LICENSE` file for details.
 
 ## 📞 Contact
 
-- GitHub: [your-username](https://github.com/your-username)
-- Email: your-email@example.com
+- GitHub: [cardinalnsk](https://github.com/cardinalnsk)
 
 ---
 
